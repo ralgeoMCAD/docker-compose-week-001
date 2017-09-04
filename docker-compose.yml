@@ -1,8 +1,9 @@
-version: '2'
+version: '3'
 
 services:
     web:
         image: php:7.1.8-apache
+        container_name: IDM-6630-week-001
         ports:
             - "8080:80"
         volumes:
